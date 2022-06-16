@@ -1,0 +1,34 @@
+{
+  "homenews": [
+    {
+      "id": 1,
+      "title": "Anatol Lieven",
+      "news": "Russia Has Been Warning the West About Ukraine for Decades"
+    },
+    {
+      "id": 2,
+      "title": "Yohanca Delgado",
+      "news": "The Life-Changing Practice That will Help You Feel More Gratitude"
+    },
+    {
+      "id": 3,
+      "title": "Ismat Ara",
+      "news": "How it Feels to be a Muslim Woman Sold by India's Right Wing"
+    },
+    {
+      "id": 4,
+      "title": "W. Kamau Bell",
+      "news": "There's so Much More To Say About Bill Cosby"
+    },
+    {
+      "id": 5,
+      "title": "Robert's J. Davis",
+      "news": "Why You Shouldn't Exercise to Lose Weight"
+    },
+    {
+      "id": 6,
+      "title": "Christina Bu",
+      "news": "What Norway Can Teach the World About Switching to Electric Vechicles"
+    }
+  ]
+}

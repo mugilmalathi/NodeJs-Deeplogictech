@@ -1,6 +1,5 @@
 
 function homeNews(){
-
     fetch("http://localhost:8080/homenews",{
         method: 'GET'
     }).then((result)=>{
@@ -53,7 +52,9 @@ function getLatestNews(arr){
         title.innerText = e.title;
 
         let link = document.createElement('a');
-        link.innerText = e.link;
+        link.href = e.link;
+        console.log(link);
+        
 
         let date = document.createElement('p');
         date.innerText = e.date;

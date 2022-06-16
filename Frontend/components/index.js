@@ -13,7 +13,7 @@ function homeNews(){
 homeNews()
 
 function showHomeNews(res){
-
+    
     res.map((e)=>{
 
         let div = document.createElement('div');
@@ -28,7 +28,6 @@ function showHomeNews(res){
         div.append(title, news);
         document.getElementById('left_div').append(div)
     })
-
 }
 
 async function latestNews(){
@@ -52,7 +51,8 @@ function getLatestNews(arr){
         title.innerText = e.title;
 
         let link = document.createElement('a');
-        link.href = e.link;
+        link.innerText = e.link;
+        link.href = e.link
         console.log(link);
         
 
